@@ -13,13 +13,6 @@
 #include "pipex.h"
 #include <bits/fcntl-linux.h>
 
-// fd_map = open(argv[1], O_DIRECTORY);
-// if (fd_map > 0)
-// {
-// 	close(fd_map);
-// 	ft_exit(window, "Error - It's a directory\n", 3);
-// }
-
 void	init_data(t_pipex *pip, char **argv)
 {
 	*pip = (t_pipex){0};
